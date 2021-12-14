@@ -4,12 +4,14 @@ Desarrollo de aplicación web que permita ejecutar actividades de apoyo para la 
 matemáticas en estudiantes de básica primaria de instituciones públicas y privadas del Valle
 del Cauca. Desarrollado en:
 
-* [React](https://es.reactjs.org/)
-* [Librería MUI](https://github.com/mui-org/material-ui)
+- [React](https://es.reactjs.org/)
+- [Librería MUI](https://github.com/mui-org/material-ui)
 
 ## API Pasantía de Investigación
+
 En este repositorio se encuentra la API creada en Node y Express para acceder a la base de datos y realizar las operaciones CRUD.
-* [Repositorio](https://github.com/Media-Collab/API_proyecto_investigacion)
+
+- [Repositorio](https://github.com/Media-Collab/API_proyecto_investigacion)
 
 ## Scripts disponibles
 
