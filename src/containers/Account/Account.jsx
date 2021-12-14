@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import BottonNavigation from "../../components/BottonNavigation";
 
 export default function Account() {
-    return (
-        <h1>
-            Account Screen
-        </h1>
-    )
+  return (
+    <div className="App">
+      <h1>Account Screen</h1>
+      <BottonNavigation />
+    </div>
+  );
 }

@@ -1,13 +1,19 @@
 import "./App.css";
-import SearchBar from "./components/SearchBar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import Home from "./containers/Home/Home";
 import Account from "./containers/Account/Account";
 
 function App() {
   return (
-    <div className="App">
-      <SearchBar />
-      <Account />
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="cuenta" element={<Account />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
 
